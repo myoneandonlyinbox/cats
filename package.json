@@ -1,0 +1,21 @@
+{
+  "name": "cats",
+  "version": "0.0.1",
+  "description": "A cat-tas-tro-phe of sorting and filters",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^22.4.4",
+    "npm": "^6.0.1"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "cat-AGL"
+  ],
+  "author": "Hashim",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  }
+}
