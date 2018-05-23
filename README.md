@@ -1,5 +1,3 @@
-# Welcome to cats sorting
-
 # Programming challenge
 A json web service has been set up at the url: http://agl-developer-test.azurewebsites.net/people.json
 
@@ -31,7 +29,7 @@ Female
 
 All cat names with female owners
 
-Testing wasn't included because I gave the problem 2 hours and given the type of problem, 2 hours was more than enough time. Basically had I had more time I'd add in some tests for the methods I broke apart. 
+I've added in testing of the 2 main functions that were most important. You can find tests within the app/tests folder. I use Karma + Jasmine. 
 
 
 # To Run
@@ -41,3 +39,13 @@ Just double click on the app/index.html - no need for servers or anything. Howev
 Most of the execution code is in ap/scripts/execute.js
 
 Other helper methods I broke apart are in the remaining 2 files - app/scripts/filtered-object.js and app/scripts/pop-cat-names.js
+
+# Run Tests
+
+In the command line - run:
+
+npm install
+
+to install dependencies.
+
+Next just run karma start in the root directory. That should run the unit tests. 
